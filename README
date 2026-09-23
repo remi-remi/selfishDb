@@ -1,0 +1,11 @@
+# selfishDb
+
+selfishDb is a script wich allow you to create configuration to export data from mariadb/mysql to json or xlsx
+
+src/exportsConfig.example.ts is used as a configuration because git should not override your real configuration
+
+## QUICKSTART
+
+create a .env at this project root using the .env.example
+
+create a src/exportsConfig.ts using the src/exportsConfig.example.ts (more information in this file)
