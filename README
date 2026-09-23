@@ -1,3 +1,7 @@
+# IS NOT READY FOR PROD,
+# i still have few tweaks to do
+# Dockerfile untested
+
 # selfishDb
 
 selfishDb is a script wich allow you to create configuration to export data from mariadb/mysql to json or xlsx
