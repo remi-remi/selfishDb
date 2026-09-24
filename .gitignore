@@ -36,7 +36,6 @@ src/exportsConfig.ts
 .idea/
 .DS_Store
 
-# dev watched dir
-watched/
-EXPORT/
+# export dir content
+EXPORT/*.*
 log/
