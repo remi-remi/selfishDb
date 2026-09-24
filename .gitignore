@@ -15,7 +15,6 @@ agent.json
 # Logs
 logs
 *.log
-*.json
 npm-debug.log*
 
 # Dependency directories
