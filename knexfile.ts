@@ -1,5 +1,5 @@
 import path from "path";
-import "./src/utils/env.js";
+import "@/utils/env.js";
 import type { Knex } from "knex";
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";

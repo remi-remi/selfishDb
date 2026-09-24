@@ -5,6 +5,7 @@ import { exportsConfig } from "./exportsConfig.js";
 import { writeExportFileAcordingToFormat } from "./services/fileSystem/writeExportFileAcordingToFormat.js";
 import { ensurePathPresentAndWritable } from "./services/fileSystem/ensurePathPresentAndWritable.js";
 const exportRootDir = process.env.EXPORT_DIR! // env.ts ensure that its defined
+import '@/utils/env.js'
 
 export type exportFormatAvaiblable = 'xlsx' | 'json'
 
