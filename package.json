@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently -k -n A,T -c cyan,magenta \"tsx watch src/launchAllExports.ts\" \"tsc --noEmit --watch\"",
+    "dev": "concurrently -k -n A,T -c cyan,magenta \"tsx watch exportScheduler.ts\" \"tsc --noEmit --watch\"",
     "tsc": "tsc --noEmit --watch",
     "build": "tsc && tsc-alias",
     "start": "node dist/main.js"
@@ -37,6 +37,7 @@
     "dotenv": "^17.2.3",
     "knex": "^3.1.0",
     "mysql": "^2.18.1",
+    "node-cron": "^4.6.0",
     "winston": "^3.19.0",
     "xlsx": "^0.18.5"
   }

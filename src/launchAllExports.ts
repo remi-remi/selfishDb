@@ -4,8 +4,8 @@ import { logger } from "./lib/logger.js";
 import { exportsConfig } from "./exportsConfig.js";
 import { writeExportFileAcordingToFormat } from "./services/fileSystem/writeExportFileAcordingToFormat.js";
 import { ensurePathPresentAndWritable } from "./services/fileSystem/ensurePathPresentAndWritable.js";
-const exportRootDir = process.env.EXPORT_DIR! // env.ts ensure that its defined
 import '@/utils/env.js'
+const exportRootDir = process.env.EXPORT_DIR! // env.ts ensure that its defined
 
 export type exportFormatAvaiblable = 'xlsx' | 'json'
 
@@ -16,8 +16,6 @@ export type dbExportConfig = {
 }
 
 export const launchAllExports = async () => {
-   console.log('STARTED HERE --------------------------------------------------')
-   logger.info('logger is async !')
 
    const configs = exportsConfig()
 
@@ -47,11 +45,3 @@ export const launchAllExports = async () => {
    }
 
 }
-
-
-
-
-
-
-
-launchAllExports()

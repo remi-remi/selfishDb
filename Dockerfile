@@ -10,4 +10,4 @@ COPY . .
 RUN npm run build
 RUN npm i
 
-CMD ["node", "dist/src/launchAllExports.js"]
+CMD ["node", "dist/exportScheduler.js"]

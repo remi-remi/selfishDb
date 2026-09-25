@@ -17,6 +17,8 @@ const requiredEnvVars = [
    'MYSQL_DATABASE',
    'EXPORT_DIR',
    'LOG_DESTINATION',
+   'NODE_CRON_CONFIG',
+   'EXPORT_ON_LAUNCH',
 ];
 
 let allEnvVarsSet = true;
