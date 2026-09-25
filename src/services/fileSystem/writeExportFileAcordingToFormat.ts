@@ -17,7 +17,7 @@ export const writeExportFileAcordingToFormat = (
       default: {
          // this won't happen, but its used to force TS to yell if all types not implemented
          const _exhaustiveCheck: never = exportFormat; // type json not assignable to never mean that ^
-         throw new Error(`Format d'export non géré: ${_exhaustiveCheck}`);
+         throw new Error(`unknown format : ${_exhaustiveCheck}`);
       }
    }
 };
